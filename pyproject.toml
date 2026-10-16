@@ -1,0 +1,11 @@
+[project]
+name = "robot-api-test-automation"
+version = "0.1.0"
+description = "REST API test automation with Robot Framework and FastAPI"
+requires-python = ">=3.11"
+dependencies = [
+    "robotframework",
+    "robotframework-requests",
+    "fastapi",
+    "uvicorn",
+]
